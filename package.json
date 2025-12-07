@@ -1,0 +1,23 @@
+{
+  "name": "farcaster-digest",
+  "version": "1.0.0",
+  "description": "Farcaster channel digest tool using Neynar API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "farcaster",
+    "neynar",
+    "digest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@neynar/nodejs-sdk": "^2.46.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
