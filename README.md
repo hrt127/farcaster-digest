@@ -70,24 +70,25 @@ farcaster-digest/
   
 ## 🔎 Honest Assessment
 
-### ✅ What’s Working
+### ✅ What's Working
+- Surfaces important conversations: platform direction, UX debates, memes with actual substance
+- Emphasizes signal over noise by highlighting high-engagement casts that spark replies, not just likes
+- Provides context to understand current debates around tokens, clients, and culture on Farcaster
 
-- Surfaces important conversations such as platform direction, UX debates, and memes with actual substance.
-- Emphasizes signal over noise by highlighting high‑engagement casts that spark replies, not just likes.
-- Provides enough context to understand current debates around tokens, clients, and culture on Farcaster.
-
-### ⚠️ What’s Not Working
-
-- User overlap can cause duplicates across `/farcaster` and `/higher`.
-- Some channels like `/ai` and `/frames` may appear empty due to inactive contributors or bugs.
-- Narrow perspective because the current setup only tracks a small number of users per channel.
-- Free tier API limits can make refreshing the digest feel clunky.
+### ⚠️ What's Not Working
+- User overlap causes duplicates across `/farcaster` and `/higher`
+- `/ai` and `/frames` often appear empty due to inactive contributors or API issues
+- Narrow perspective — only tracks 2 users per channel due to free tier rate limits
+- Clunky refresh experience because of API limitations
+- Light mode (yes, I know)
 
 ## 🎯 Why This Matters
 
-Farcaster's focused on sustainable growth, but there's a discovery problem: new users (or maybe just me) often feel lost. It's hard to see the values and culture that made FC what it is when you're drowning in unfamiliar channels and inside references.
-I've watched this place grow since last year. The people here are genuinely magical — thoughtful builders, substantive debates, actual attempts to change things. But without onboarding rails, dp most people get all of that and heart swayed the FC way?
-I got lucky. People showing me grace while I'm figuring it out <3 I'm trying to be more than I've been before. 
+Farcaster's focused on sustainable growth, but there's a discovery problem: new users often feel lost. It's hard to see the values and culture that made FC special when you're drowning in unfamiliar channels and inside references.
+
+I've watched this place grow since last year. The people here are genuinely magical — thoughtful builders, substantive debates, actual attempts to change things. But without onboarding rails, do most people experience that? Or do they bounce before their heart gets swayed the FC way?
+
+I got lucky. People showed me grace while I figured it out. Now I'm trying to pay that forward.
 
 This tool is a rough prototype of what could help more people find the magic:
 - **Channel discovery**: Find spaces by interest, not luck
@@ -96,7 +97,9 @@ This tool is a rough prototype of what could help more people find the magic:
 - **Information router**: Turn chaos into navigable signal
 
 Right now it's just a digest that helped one confused person. But it hints at making FC's incredible culture more accessible to people who don't have someone showing them around.
-FC deserves better whatever that looks like onboarding tools. The conversations happening here are too good for people to miss or for it to get twisted by the world.
+
+FC deserves better onboarding tools. The conversations happening here are too good for people to miss — or for the culture to get diluted as it grows.
+
 If this direction interests you, PRs and ideas welcome.
 
 ## 🛠️ Troubleshooting
