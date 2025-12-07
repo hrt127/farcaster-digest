@@ -83,6 +83,22 @@ farcaster-digest/
 - Narrow perspective because the current setup only tracks a small number of users per channel.
 - Free tier API limits can make refreshing the digest feel clunky.
 
+## 🎯 Why This Matters
+
+Farcaster's focused on sustainable growth, but there's a discovery problem: new users (or maybe just me) often feel lost. It's hard to see the values and culture that made FC what it is when you're drowning in unfamiliar channels and inside references.
+I've watched this place grow since last year. The people here are genuinely magical — thoughtful builders, substantive debates, actual attempts to change things. But without onboarding rails, dp most people get all of that and heart swayed the FC way?
+I got lucky. People showing me grace while I'm figuring it out <3 I'm trying to be more than I've been before. 
+
+This tool is a rough prototype of what could help more people find the magic:
+- **Channel discovery**: Find spaces by interest, not luck
+- **People recommender**: Surface thoughtful contributors worth following
+- **Culture guide**: Understand each space's vibe before diving in
+- **Information router**: Turn chaos into navigable signal
+
+Right now it's just a digest that helped one confused person. But it hints at making FC's incredible culture more accessible to people who don't have someone showing them around.
+FC deserves better whatever that looks like onboarding tools. The conversations happening here are too good for people to miss or for it to get twisted by the world.
+If this direction interests you, PRs and ideas welcome.
+
 ## 🛠️ Troubleshooting
 
 - **429 Rate Limit Errors** → Increase delay between requests to 1000 ms in `src/index.js`.
