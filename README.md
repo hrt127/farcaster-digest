@@ -13,12 +13,13 @@ This project is a small tool to troubleshoot that confusion by surfacing what ac
 - Fetches casts from 5 hardcoded channels: `/farcaster`, `/fc-devs`, `/higher`, `/ai`, `/frames`.
 - Uses free‑tier Neynar endpoints only, fetching casts from active users in each channel.
 - Pulls the last 24 hours of casts from channel‑associated users.
-- Scores casts by engagement:  
+- Scores casts by engagement:
 
-  \[
-  \text{score} = \text{likes} + (\text{replies} \times 2) + (\text{recasts} \times 3)
-  \]
-  → prioritizing conversation over vanity metrics.
+\[
+\text{score} = \text{likes} + (\text{replies} \times 2) + (\text{recasts} \times 3)
+\]
+
+→ prioritizing conversation over vanity metrics.
 
 - Displays the top 5 casts per channel in a simple HTML page.
 - Shows cast text, author, engagement numbers, and timestamp.
@@ -90,23 +91,17 @@ farcaster-digest/
 
 ## 🌍 Approaches Compared
 
-| Tool/Approach        | What It Provides                          | Limitation                              | This Project’s Difference                                 |
-
-|----------------------|--------------------------------------------|-----------------------------------------|-----------------------------------------------------------|
-
-| Neynar APIs/SDKs     | Raw access to Farcaster protocol data  | Infrastructure only, no opinionated context  | Built on Neynar but adds a context and curation layer     |
-
-| Scrapers/Explorers   | Raw feeds and analytics dashboards  | Often developer‑focused, not onboarding  | Digest tuned for users trying to understand conversations |
-
-| Clients (Warpcast)   | Engagement‑optimized feed UI        | Optimizes for likes and engagement, not clarity  | Filters for conversation quality instead of raw popularity |
-
-| This Digest          | Daily snapshot of top casts by channel     | Early MVP with simple UI                 | Targets “lost in the black hole” onboarding problem       |
-
+| Tool/Approach        | What It Provides                        | Limitation                              | This Project’s Difference                                 |
+|----------------------|------------------------------------------|-----------------------------------------|-----------------------------------------------------------|
+| Neynar APIs/SDKs     | Raw access to Farcaster protocol data    | Infrastructure only, no opinionated context | Built on Neynar but adds a context and curation layer     |
+| Scrapers/Explorers   | Raw feeds and analytics dashboards       | Often developer‑focused, not onboarding  | Digest tuned for users trying to understand conversations |
+| Clients (Warpcast)   | Engagement‑optimized feed UI             | Optimizes for likes and engagement, not clarity | Filters for conversation quality instead of raw popularity |
+| This Digest          | Daily snapshot of top casts by channel   | Early MVP with simple UI                 | Targets “lost in the black hole” onboarding problem       |
   
 
 ## 📸 Screenshot
 
-_Screenshot of the digest UI here once available (for example, `docs/screenshot.png`)._
+_Screenshot of the digest UI here once available_ .png
 
 ## 🎯 Roadmap
 
