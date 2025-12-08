@@ -12,7 +12,7 @@ This project is a small tool to troubleshoot that confusion by surfacing what ac
 
 - Fetches casts from 5 hardcoded channels: `/farcaster`, `/fc-devs`, `/higher`, `/ai`, `/frames`.
 - Uses free‑tier Neynar endpoints only, fetching casts from active users in each channel.
-- Pulls the last 24 hours of casts from channel‑associated users.
+- Pulls the last 48 hours of casts from channel‑associated users.
 - Scores casts by engagement:
 
 \[
