@@ -31,12 +31,52 @@ const cache = {
 // Update these with actual FIDs (numbers) or usernames of users who post in these channels
 // You can find FIDs using: https://warpcast.com/~/developers
 const CHANNEL_USERS = {
-    '/farcaster': [3, 1139],      // dwr, cassie
-    '/fc-devs': [3621, 8152],     // horsefacts 
-    '/higher': [274, 239],         // 
-    '/ai': [5],                // vitalik
-    '/frames': [8152]       // df (frame builders)
+  '/farcaster': [1325, 15983, 99],        // dwr muted temp, cassie, jacek, jesse (platform meta + culture)
+  '/fc-devs': [3621, 8152],          // horsefacts, df (builders + humor)
+  '/higher': [3],                // dwr, horsefacts muted temp (earnest FC vibe)
+  '/ai': [221255],                  // ligne12 personal pref TEMPORARILY DISABLED - hitting rate limits
+  // '/frames': [8152, 3621]         // TEMPORARILY DISABLED - hitting rate limits
 };
+
+/**
+* USER SELECTION RATIONALE
+* 
+* The goal: Capture FC's essence in 3 channels with users who represent what makes this place special.
+* 
+* /farcaster - Platform Meta & Culture
+* - dwr (3): Co-founder, sets direction, handles drama, makes platform decisions
+* - cassie (1139): Culture guardian, calls out what matters, defends original FC values
+* - jacek (1934): Community voice, engages in meta discussions about identity
+* Why: This is where FC's soul gets debated. Direction, values, what we stand for.
+* 
+* /fc-devs - The Builders  
+* - horsefacts (3621): Smart contract dev, mixes deep insights with humor and philosophy
+* - df (8152): Ships constantly, pioneered frames, crosses multiple domains
+* Why: This is where things actually get built. Not just talk - action.
+* 
+* /higher - The Vibe Check
+* - dwr (3): Engages in earnest discussions here
+* - horsefacts (3621): Active in the anti-degen movement
+* Why: Represents FC's attempt to be different - thoughtful over degenerate, 
+*      earnest over ironic, substance over casino. The cultural experiment.
+* 
+* /ai - DISABLED (Temporarily)
+* Hitting free-tier rate limits. Will add back when rate limit strategy improves.
+* Target users: vitalik (5), balajis (5650) for serious AI discourse
+* 
+* /frames - DISABLED (Temporarily) 
+* Hitting free-tier rate limits. Will add back when rate limit strategy improves.
+* Target users: df (8152), horsefacts (3621) for frame innovation
+* 
+* These 7 users (3 channels) capture:
+* - Platform direction (dwr, cassie, jacek)
+* - Builder mindset (horsefacts, df)  
+* - Cultural identity (higher community)
+* - The full spectrum: meta → building → values
+* 
+* Free tier limits force focus. These 3 channels are enough to go from 
+* "lost in the chaos" to "understanding what FC is about."
+*/
 
 /**
  * Extract author name with multiple fallback options
